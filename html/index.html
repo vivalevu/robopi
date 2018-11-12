@@ -45,25 +45,25 @@
 		  // Do our thing
 		  switch(e.keyCode){
 			case 87: //forward (w)
-			  xhr.open('get', 'http://192.168.1.65:8080/api/forward', true);
+			  xhr.open('get', '/api/forward', true);
 		      xhr.send();
 		      console.log('forward');
 		      break;
 
   		    case 83: //backword (a)
-			  xhr.open('get', 'http://192.168.1.65:8080/api/backward', true);
+			  xhr.open('get', '/api/backward', true);
 		      xhr.send();
 		      console.log('backward');
 		      break;
 		    
 		    case 65: //left (a)
-			  xhr.open('get', 'http://192.168.1.65:8080/api/left', true);
+			  xhr.open('get', '/api/left', true);
 		      xhr.send();
 		      console.log('left');
 		      break;
 
 		    case 68: //right (d)
-			  xhr.open('get', 'http://192.168.1.65:8080/api/right', true);
+			  xhr.open('get', '/api/right', true);
 			  xhr.send();
 		      console.log('right');
 		      break;
@@ -78,7 +78,7 @@
  		var status = document.getElementById('status');
 		status.innerHTML = "UP Event Fired For : "+key_press;
 
-		xhr.open('get', 'http://192.168.1.65:8080/api/stop', true);
+		xhr.open('get', '/api/stop', true);
 		xhr.send();
 		console.log('stop');
 

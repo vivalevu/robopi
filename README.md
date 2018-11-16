@@ -15,5 +15,5 @@ API calls are means of interface with client and server
 # goal 2
 to be able to connect to same website and connect to live web stream feed
 
-#features
+# features
 go on website and connect to live wbe stream by pressing button

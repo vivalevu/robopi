@@ -20,6 +20,4 @@ The gameplan is to start the cameraPI at boot startup where video is capture is 
 
 This method is chosen for its low latency as realtime control is necessary for this feature.
 
-https://raspberrypi.stackexchange.com/questions/7446/how-can-i-stream-h-264-video-from-the-raspberry-pi-camera-module-via-a-web-serve
-
 First we need to have the camera started on the system and have a stream of images stored into a temporary folder by using raspistill. Raspistill will start taking images in jpeg format and save them into a designated folder. This will be implemented by using a bash script to start rolling the camera. I will need  to create two bash scripts to start and to stop the camera. I would eventually use Grunt to start any bash scripts before deploying the webserver. 

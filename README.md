@@ -9,7 +9,7 @@
 
 ---
 # Introduction 
-IoT Raspberry Pi Robot controlled by using implementing API calls that will communicate from the RPi to the ArdiunoUno via serial communication. I am using nodeJS for its robust features and packages that are avaliable. Using Express to create APIs to call functions that send data from the RPi to ArdiunoUno, I am able to drive the drone forward, reverse, left, and right. 
+IoT Raspberry Pi Robot controlled by using API calls that will communicate from the RPi to the ArdiunoUno via serial communication. I am using nodeJS for its robust features and packages that are avaliable. Using Express to create APIs to call functions that send data from the RPi to ArdiunoUno, I am able to drive the drone forward, reverse, left, and right. 
 
 You can simply control the by using WASD key event triggers where I created keydown / keyup event listeners that triggers XMLHTTPRequest connections.
 
